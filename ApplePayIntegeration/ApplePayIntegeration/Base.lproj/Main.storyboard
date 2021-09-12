@@ -11,12 +11,12 @@
         <!--View Controller-->
         <scene sceneID="Sot-Nv-OMn">
             <objects>
-                <viewController id="5jn-pg-GXC" customClass="ViewController" customModule="Shoe_Store" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5jn-pg-GXC" customClass="ViewController" customModule="ApplePayIntegeration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6nl-DO-g2Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shoe Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKz-QM-mnf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKz-QM-mnf">
                                 <rect key="frame" x="32" y="76" width="350" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="ZsS-cz-s7c"/>
@@ -25,7 +25,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick a shoe to buy." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4s-ji-wKQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick a product to buy." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4s-ji-wKQ">
                                 <rect key="frame" x="32" y="128" width="350" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="2oI-Cn-jej"/>
@@ -46,7 +46,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Buy Shoe"/>
                                 <connections>
-                                    <action selector="buyShoeTapped:" destination="5jn-pg-GXC" eventType="touchUpInside" id="wYD-e5-TRD"/>
+                                    <action selector="buyProductTapped:" destination="5jn-pg-GXC" eventType="touchUpInside" id="EBK-IW-53Z"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price: $110.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lf-6U-1rT">
@@ -79,7 +79,7 @@
                     <navigationItem key="navigationItem" id="ppX-DT-spq"/>
                     <connections>
                         <outlet property="priceLabel" destination="3Lf-6U-1rT" id="e9P-es-OnA"/>
-                        <outlet property="shoePickerView" destination="wiB-Fm-gbN" id="PPM-pQ-Ria"/>
+                        <outlet property="productPickerView" destination="wiB-Fm-gbN" id="Gk0-D3-CWv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Tk-Vw-RXi" sceneMemberID="firstResponder"/>

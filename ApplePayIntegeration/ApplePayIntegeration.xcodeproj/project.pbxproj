@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		591693DD26EDF1690041A007 /* ApplePayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591693DC26EDF1690041A007 /* ApplePayManager.swift */; };
+		591693E026EDFDE60041A007 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591693DF26EDFDE60041A007 /* ViewControllerExtension.swift */; };
 		59BAFAB426E8963A0013884D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BAFAB326E8963A0013884D /* AppDelegate.swift */; };
 		59BAFAB826E8963A0013884D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BAFAB726E8963A0013884D /* ViewController.swift */; };
 		59BAFABB26E8963A0013884D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BAFAB926E8963A0013884D /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		591693DC26EDF1690041A007 /* ApplePayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayManager.swift; sourceTree = "<group>"; };
+		591693DF26EDFDE60041A007 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		59BAFAB026E8963A0013884D /* ApplePayIntegeration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePayIntegeration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BAFAB326E8963A0013884D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59BAFAB726E8963A0013884D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,10 +62,12 @@
 				59BAFAD026E8B6760013884D /* ApplePayIntegeration.entitlements */,
 				59BAFAB326E8963A0013884D /* AppDelegate.swift */,
 				59BAFAB726E8963A0013884D /* ViewController.swift */,
+				591693DC26EDF1690041A007 /* ApplePayManager.swift */,
 				59BAFAB926E8963A0013884D /* Main.storyboard */,
 				59BAFABC26E8963A0013884D /* Assets.xcassets */,
 				59BAFABE26E8963A0013884D /* LaunchScreen.storyboard */,
 				59BAFAC126E8963B0013884D /* Info.plist */,
+				591693DF26EDFDE60041A007 /* ViewControllerExtension.swift */,
 			);
 			path = ApplePayIntegeration;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591693E026EDFDE60041A007 /* ViewControllerExtension.swift in Sources */,
+				591693DD26EDF1690041A007 /* ApplePayManager.swift in Sources */,
 				59BAFAB826E8963A0013884D /* ViewController.swift in Sources */,
 				59BAFAB426E8963A0013884D /* AppDelegate.swift in Sources */,
 			);
